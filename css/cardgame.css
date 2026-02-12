@@ -1,0 +1,99 @@
+#allSectionsWrapper {
+    width: 90%;
+}
+
+#dealerSectionDiv {
+    width: 100%;
+    height: 100px;
+    border: 1px solid orange;
+    font-size: 20px;
+    text-align: center;
+}
+
+#playerSectionDiv {
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    border: 1px solid green;
+}
+
+#playerFeedbackDiv {
+    width: 90%;
+    height: 25px;
+    border: 1px solid red;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+#playerFeedbackMsgSpan {
+    position: absolute;
+    left: 20%;
+}
+
+#playerFeedbackTallySpan {
+    position: absolute;
+    right: 10%;
+}
+
+#playerHandDiv {
+    width: 90%;
+    height: 320px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.playerHandCardImg {
+    width: 205px;
+    padding: 3px;
+
+}
+
+.playerCardDiv {
+    padding: 5px;
+    width: 210px;
+    float: left;
+
+}
+
+.playerCardHoldDiv {
+    text-align: center;
+    visibility: hidden;
+}
+
+#playerControlsDiv {
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+
+}
+
+#playerControlButtonsSpan {
+    display:block;
+    margin:0 auto;
+    width:200px;
+}
+
+#drawButton {
+    float: right;
+}
+
+.playerControlButton {
+    background-color: lightgray;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.playerControlButton:disabled,
+.playerControlButton[disabled]
+{
+    color: darkgray;
+
+}
